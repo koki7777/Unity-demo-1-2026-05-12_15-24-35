@@ -48,7 +48,7 @@ public class PlayerController2D : MonoBehaviour
         Vector2 movementVelocity = moveInput * moveSpeed;
         Vector2 totalVelocity = movementVelocity + knockbackVelocity;
 
-        rb.MovePosition(rb.position + totalVelocity * Time.fixedDeltaTime);
+        rb.linearVelocity = totalVelocity;
         knockbackVelocity = Vector2.MoveTowards(knockbackVelocity, Vector2.zero, knockbackDamping * Time.fixedDeltaTime);
     }
 
