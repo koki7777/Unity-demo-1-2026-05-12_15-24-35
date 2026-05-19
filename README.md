@@ -4,7 +4,7 @@
 
 Unity Editorバージョン: 6000.0.74f1
 
-## 1.GithubDesktopのインストール
+## 1. GithubDesktopのインストール（初回のみ）
 
 **[ダウンロードリンク](https://desktop.github.com/download/)**
 
